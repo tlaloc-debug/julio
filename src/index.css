@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+    background-color: #fb7d0c;
+    height: 400px;
+    width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 15%;
 }
+
+.center {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+    height: 250px;
+    width: 75%;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.topnav {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.sliderimg {
+    border: solid;
+}
+
+.taller1 {
+    height: 640px;
+    width: 640px;
+    background-image: url("./taller1.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: white;
+    background-position: center;
+}
+
+.taller2 {
+    height: 640px;
+    width: 640px;
+    background-image: url("./taller2.JPG");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: white;
+    background-position: center;
+}
+
+.taller3 {
+    height: 640px;
+    width: 640px;
+    background-image: url("./taller3.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: white;
+    background-position: center;
+}
+
+.taller4 {
+    height: 640px;
+    width: 640px;
+    background-image: url("./taller4.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: white;
+    background-position: center;
+}
+
+.taller5 {
+    height: 640px;
+    width: 640px;
+    background-image: url("./taller5.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: white;
+    background-position: center;
+}
+
+.taller6 {
+    height: 640px;
+    width: 640px;
+    background-image: url("./taller6.JPG");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: white;
+    background-position: center;
+}
+
+.taller7 {
+    height: 640px;
+    width: 640px;
+    background-image: url("./taller7.JPG");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: white;
+    background-position: center;
+}
+
+.taller8 {
+    height: 640px;
+    width: 640px;
+    background-image: url("./taller8.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: white;
+    background-position: center;
+}
+
+.body {
+    height: 500px;
+    width: 100%;
+    background-color: #fb7d0c;
+}
+
