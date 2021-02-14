@@ -5,14 +5,18 @@ import logo from "./logo.jpeg"
 import { Facebook } from 'react-bootstrap-icons';
 import { TelephoneFill } from 'react-bootstrap-icons';
 import { GeoAltFill } from 'react-bootstrap-icons';
-import AliceCarousel from 'react-alice-carousel';
-import "react-alice-carousel/lib/alice-carousel.css";
+import Fotos from "./fotos.js";
+
+
 
 function App() {
+
     return (
         <div>
             <div className={"header"}>
+
                 <img src={logo} alt="" className={"logo"}/>
+                
                 <div className={"center"}>
                     <div className={"horizontal"}>
                         <div style={{fontWeight: "bold"}}> Av. Siglo XXI #5123 Haciendas de Aguasclaientes</div>    
@@ -23,47 +27,85 @@ function App() {
                     <div className={"horizontal"}>
                         <div style={{height: "100px", fontWeight: "bold", color: "white", fontSize: "3em"}}> JULIO REGALADO</div>    
                     </div>
+                    
+                </div>
+
+                <div className={"precios"}>
                     <div className={"horizontal"}>
-                        <div style={{display: "flex", justifyContent: "space-around", width: "50%"}}>
-                            <div className={"topnav"}>SERVICIOS</div>  
-                            <div className={"topnav"}>CONTACTO</div>  
-                            <div><a href="https://www.facebook.com/Alineaci%C3%B3n-y-balanceo-Julio-Regalado-1107993399379429"><Facebook size={40} color={"blue"}/></a> </div> 
+                        <div style={{padding: "40px 0px"}}>
+                            <div className={"lista"}>
+                                <div className={"marca"}>Diagnostico Gratis</div>
+                            </div>
+                            <div className={"lista"}>
+                                <div>Alineación y Balanceo </div> 
+                                <div>(rines estándar) </div>  
+                                <div className={"marca"}> $200 </div> 
+                            </div>
+                            <div className={"lista"}>
+                                <div>Alineación y Balanceo</div>  
+                                <div>(rines deportivos... 17 hasta 22 </div>
+                                <div>incluyendo plomo de contacto)</div>  
+                                <div className={"marca"}> $350</div>
+                            </div>
+                            <div className={"lista"}>
+                                <div>Cambio de Refacciones</div>  
+                                <div className={"marca"}> 10% de Descuento </div> 
+                            </div>
+                            <div className={"lista"}>
+                                <div>Cambio de Frenos Delantero y traseros</div> 
+                                <div className={"marca"}> 10% de Descuento </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div className={"horizontal"}>
-                <div style={{height: "640px", width: "50%"}}>
-                    <AliceCarousel autoPlay autoPlayInterval="3000" infinite="true" disableButtonsControls="true" disableDotsControls="true">
-                        <div className="taller1"></div>
-                        <div className="taller2"></div>
-                        <div className="taller3"></div>
-                        <div className="taller4"></div>
-                        <div className="taller5"></div>
-                        <div className="taller6"></div>
-                        <div className="taller7"></div>
-                        <div className="taller8"></div>                    
-                    </AliceCarousel>
-                </div>
-            </div>
-
+            <Fotos />
+            
             <div className={"body"}>
-                <div style={{position: "absolute", marginTop: "60px", marginLeft: "100px", height: "340px", width: "80%"}}>
-                    <div style={{position: "absolute", height: "40px", width: "50%", fontWeight: "bold", fontSize: "2em"}}>
-                        Alineacion y balanceo
+                <div style={{width: "70%", display: "flex", justifyContent: "center"}}>
+                    <h2>Alineacion y Balanceo</h2>
+                </div>
+                <div style={{display: "flex", justifyContent: "space-around"}}>
+                    <div style={{width: "70%", marginBottom: "20px"}}>
+                        <div>Sabemos lo importante que es para ti tener tu auto en perfectas condiciones. Por eso es que la alineación y el balanceo juegan un papel esencial en el funcionamiento de un vehículo y es de suma importancia para el desempeño correcto de cualquier automóvil.</div> <br/>
+                        <div style={{fontWeight: "bold"}}>¿CUÁNDO? </div> <br/>
+                        <div>Se recomienda hacerlo cada 6, o bien, si sientes cualquier vibración al momento de viajar a alta velocidad, desgastes inadecuados en tus llantas o siente que la dirección se va hacia un lado, es hora de llevar el vehículo al taller y pasarlo por alineación y balanceo.</div><br/>
+                        <div style={{fontWeight: "bold"}}>¿POR QUÉ?</div><br/>
+                        <div>Por seguridad o durabilidad de las llantas es importante hacer la alineación en los cuatro neumáticos. ¡No se te olvide! De esta manera tu vehículo será más seguro y el desgaste más parejo en tus llantas.</div>
+                        <div>En cuanto al balanceo, sirve para que las llantas giren sin tener algún tipo de vibración a determinadas velocidades.</div>
                     </div>
-                    <div style={{position: "absolute", marginTop: "60px", height: "280px", width: "50%"}}>
-                        <div style={{fontWeight: "bold", fontSize: "1.5em"}}> La alineacio previene:</div><br/>
-                        <div>El desagaste irregular de las llanatas aumentando su vida util</div>
-                        <div>El aumento de la llanta en el suelo</div>
-                        <div>El desplazamiento del vehiculo</div><br/>
-                        <div style={{fontWeight: "bold", fontSize: "1.5em"}}>El balanceo permite</div><br/>
-                        <div>El giro de las ruedas o llantas sin tener vibracions a determinadas velocidades</div>
-                    </div>
-
+                
+                    <div className={"balanceo"}></div>
+                        
                 </div>
             </div>
+            <br/>
+            <div className={"body"}>
+                <div style={{display: "flex", justifyContent: "right"}}> 
+                    <div style={{width: "70%", display: "flex", justifyContent: "center"}}>
+                        <h2>Cambio de pastillas de freno</h2>
+                    </div>
+                </div>
+                    
+                <div style={{display: "flex", justifyContent: "space-around"}}>
+                    
+                    <div className={"pastillas"}></div>
+
+                    <div style={{width: "70%", display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+                        <div>
+                            <div style={{fontWeight: "bold"}}>¿QUE SON?</div><br/>
+                            <div>Las pastillas de freno son uno de los materiales que más desgaste sufren del coche con el paso del tiempo y es necesario cambiarlas, ya que son de suma importancia para tu seguridad y los de alrededor.</div><br/>
+                            <div style={{fontWeight: "bold"}}>¿CUANDO HAY QUE CAMBIARLAS?</div><br/>
+                            <div>Con base en nuestra experiencia nosotros recomendamos cambiarlas mínimo dos veces al año. Dependiendo del uso que le des a tu automóvil (agresividad al volante).Si se escucha un ruido (agudo) al momento de frenar. O bien, si en tu coche se enciende el testigo de desgaste de pastillas.</div><br/>
+                            <div style={{fontWeight: "bold"}}>¿POR QUE HAY QUE CAMBIARLAS?</div><br/>
+                            <div>Si las pastillas se llegaran a gastar en su totalidad, se podría dañar superficie de los discos y ocasionar un accidente.</div> 
+                        </div>
+                    </div>   
+                </div>
+            </div>
+                
+            
 
             <div style={{display: "flex", justifyContent: "space-around", marginTop: "20px"}}>
                 <div style={{width: "30%"}}> 

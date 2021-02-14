@@ -1,19 +1,18 @@
 .header {
     background-color: #fb7d0c;
-    height: 400px;
+    height: 200px;
     width: 100%;
 }
 
 .logo {
     position: absolute;
-    margin-top: 100px;
     margin-left: 100px;
-    width: 15%;
+    width: 200px;
 }
 
 .center {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: 300px;
     height: 250px;
     width: 75%;
@@ -115,9 +114,9 @@
 }
 
 .body {
-    height: 500px;
     width: 100%;
-    background-color: #fb7d0c;
+    background-color: #1a3044;
+    color: white;
 }
 
 .footer {
@@ -129,4 +128,39 @@
     justify-content: center;
     color: white;
     align-items: center;
+}
+
+.precios {
+    position: absolute;
+    margin-left: 50%;
+    height: 640px;
+    width: 45%;
+    margin-top: 200px;
+}
+
+.balanceo{
+    width: 300px;
+    background-size: 100% auto;
+    background-image: url("./alineacion.jpg");
+    background-repeat: no-repeat;
+}
+
+.pastillas{
+    width: 300px;
+    background-size: 100% auto;
+    background-image: url("./pastillas.jpg");
+    background-repeat: no-repeat;
+}
+
+.lista{
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    font-size: 1.2em;
+    border: solid;
+    border-radius: 20px;
+}
+
+.marca {
+    font-weight: bold;
 }
