@@ -1,21 +1,50 @@
-.header {
+.headerpc {
     background-color: #fb7d0c;
     height: 200px;
     width: 100%;
 }
 
-.logo {
+.headercell {
+    background-color: #fb7d0c;
+    height: 250px;
+    width: 100%;
+}
+
+.logopc {
     position: absolute;
     margin-left: 100px;
     width: 200px;
 }
 
-.center {
+.logocell {
+    position: absolute;
+    width: 200px;
+}
+
+.centerpc {
     position: absolute;
     margin-top: 30px;
     margin-left: 300px;
     height: 250px;
     width: 75%;
+}
+
+.centercell {
+    position: absolute;
+    margin-top: 200px;
+    height: 250px;
+    width: 100%;
+}
+
+.oficinapc{
+    display: flex;
+    justify-content: center;
+}
+
+.oficinacell{
+    margin-top: 00px;
+    display: flex;
+    justify-content: center;
 }
 
 .horizontal {
@@ -135,7 +164,6 @@
     margin-left: 50%;
     height: 640px;
     width: 45%;
-    margin-top: 200px;
 }
 
 .balanceo{
@@ -163,4 +191,8 @@
 
 .marca {
     font-weight: bold;
+}
+
+.out {
+    display: none;
 }
