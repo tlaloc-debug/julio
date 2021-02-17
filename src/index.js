@@ -25,7 +25,7 @@ function App() {
                 
                 <div className={matches ? "centerpc" : "centercell"}>
                     <div className={"oficina"}>
-                        <div style={{fontWeight: "bold", textAlign: "center"}}> Av. Siglo XXI #5123 Haciendas de Aguasclaientes</div>    
+                        <div style={{fontWeight: "bold", textAlign: "center"}}> Av. Siglo XXI #5123 Haciendas de Aguascalientes</div>    
                     </div>
                     <div className={matches ? "horizontal" : "out"}>
                         <div style={{padding: "25px", fontWeight: "bold", color: "white", fontSize: "1.5em"}}> Alineacion y Blanceo</div>    
@@ -126,7 +126,7 @@ function App() {
                     <div style={{marginTop: "30px", marginLeft: "10%", height: "50px"}}>
                         <div style={{display: "inline-block"}}><TelephoneFill size={30} color={"red"}/></div>
                         
-                        <div style={{fontSize: "1.5em", display: "inline-block", paddingLeft: "10%", fontStyle: "italic"}}>514 717 6664</div>
+                        <div style={{fontSize: "1.5em", display: "inline-block", paddingLeft: "10%", fontStyle: "italic"}}>449 452 6827</div>
                     </div>
                     <div style={{marginTop: "30px", marginLeft: "10%"}}>
                         <div style={{position: "absolute"}}><GeoAltFill size={30} color={"red"}/></div>
